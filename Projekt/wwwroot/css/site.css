@@ -1,0 +1,67 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    font-weight: 600;
+}
+
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.weather-temp {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.weather-desc {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.weather-detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.historical-day {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.historical-day:hover {
+    background-color: #f0f0f0;
+}
+
+.selected-day {
+    background-color: #e9f7fe !important;
+    border-left: 4px solid #007bff;
+}
